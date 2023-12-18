@@ -1,4 +1,4 @@
-from queue import Queue
+from queue import Queue5
 
 class MazeSolver:
     def __init__(self, maze):
@@ -68,8 +68,3 @@ solver.dfs(0, 0)
 solver.visited = [[False] * solver.cols for _ in range(solver.rows)]  # Reset visited array
 print("\nBFS:")
 solver.bfs(0, 0)
-#이 코드는 미로 탐색을 위한 MazeSolver 클래스를 정의하고, dfs와 bfs 함수를 구현하여
-#깊이우선탐색과 너비우선탐색을 수행합니다. 미로 데이터는 maze 변수에 정의되며, 
-#visited 배열을 사용하여 방문한 셀을 추적합니다. dfs 및 bfs 함수 내에서 셀 방문을 
-#처리하고 이동할 방향을 정의할 수 있습니다. 이 코드를 원하는 미로 데이터와 함께 실행하면 
-#해당 미로를 탐색할 수 있습니다.

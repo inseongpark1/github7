@@ -35,8 +35,3 @@ my_list.append(10)
 min_index, max_index = my_list.findMinMax()
 print("가장 작은 항목의 인덱스:", min_index)
 print("가장 큰 항목의 인덱스:", max_index)
-
-#이 코드는 ArrayList 클래스를 정의하고, findMinMax() 함수를 구현하여 
-# 주어진 리스트에서 가장 작은 항목과 가장 큰 항목의 인덱스를 찾습니다. 
-# 만약 리스트가 비어있는 경우, (-1, -1)을 반환합니다. 
-# 위의 예제에서는 my_list를 사용하여 테스트했습니다.

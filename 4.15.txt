@@ -1,0 +1,31 @@
+4.15 문제 : 
+변환과정:
+A B: A B
+C - D: (A - B) + (C * D)
+*: (A - B) + (C * D)
++: (A - B) + (C * D)
+A B + C D - / E +:
+
+변환과정:
+A B: A + B
+C D -: (A + B) / (C - D)
+/ E +: ((A + B) / (C - D)) + E
+A B C D E * + / +:
+
+변환과정:
+A B: A + B
+C D E * +: (A + B) / (C + (D * E))
+/: (A + B) / (C + (D * E))
++: ((A + B) / (C + (D * E))) + F
+X Y Z + A B - * -:
+
+변환과정:
+X Y Z: X + Y + Z
+A B -: (X + Y + Z) * (A - B)
+-: ((X + Y + Z) * (A - B)) - C
+A B + C - D E * +:
+
+변환과정:
+A B: A + B
+C -: (A + B) - C
+D E * +: ((A + B) - C) + (D * E)
